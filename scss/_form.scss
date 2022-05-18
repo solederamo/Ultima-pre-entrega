@@ -1,0 +1,28 @@
+
+/*Formulario css*/
+form {font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 300px;
+    background-color: $color-titulo;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    color: rgb(37, 37, 37);
+    border-radius: 15px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;}
+
+form div {padding-top: 1px;
+    padding-bottom: 1px;}
+
+form input {padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 3px;}
+
+form textarea {padding-top: 1px;
+    padding-bottom: 20px;
+    margin-top: 3px;}

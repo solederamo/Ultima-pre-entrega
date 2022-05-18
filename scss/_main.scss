@@ -1,0 +1,75 @@
+.contenedorindex {background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer";
+    width: 100vw;}
+
+header {grid-area: header;}
+
+nav {grid-area: nav;}
+
+main {grid-area: main;}
+
+footer {grid-area: footer;}
+
+.tituloindex {display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: $color-titulo;
+    font-weight: bold;
+    height: 80px;}
+
+.subtituloindex {grid-area: subtitulo;
+    font-family:'Quicksand', sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;}
+
+.imagenesindex {display: flex;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            &.imagenesindex :hover {transform: scale(2.8);
+                transition-timing-function: ease-in-out; 
+                transition-duration: 1s;
+                border-radius: 20px;}  
+
+    
+            .fotostam {display: flex;
+                width: 200px;
+                height: 150px;
+                padding-top: 10px;
+                box-shadow: 10px 10px 10px rgba(0,0,0,5);}
+            }
+
+.imagencentro {display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+.videoindex {display: flex;
+    justify-content: center;}
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "entrega-sass-ceo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilado-css": "node-sass --include-path scss scss/jesrom.scss css/jesrom.css",
+    "corre-css": "nodemon -e scss -x \"npm run compilado-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "description": "***\r Pagina de turismo para contratar excursiones, paseos por la ciudad de Buenos Aires, consultas y reservas, cotizacion de servicios privados y regulares, atencion al turista durante su estadia. \r ***"
+}

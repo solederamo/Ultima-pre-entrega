@@ -1,0 +1,17 @@
+/*Header pagina*/
+header {display:flex;
+        justify-content: center;}
+    
+header div img {width: 100%;
+                height: 450px;
+                justify-content: center;
+                align-items: center;}
+            
+.headerimagen {display: flex;
+                justify-content: center;}
+
+@media screen and (min-width: 700px:){
+
+        header div img {width: 100%;
+                        }
+}
