@@ -1,6 +1,6 @@
 .logo {display: flex;
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     margin-left: 20px;
     cursor: pointer;}
   
@@ -21,8 +21,9 @@
         height: 100px;}
 
 .navbar-nav {display: flex;
-            flex-direction: row;}
-    
+            flex-direction: row;
+            padding: 10px;}
+
 .navbar-expand-lg .navbar-collapse {
             display: flex!important;
             flex-basis: auto;
@@ -47,4 +48,4 @@ ul {display: block;
                 align-items: center;}
             
 .bg-light {background-color: $color-nav !important;
-    height: 150px;}
+        height: 150px;}

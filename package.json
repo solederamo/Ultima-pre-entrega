@@ -14,5 +14,13 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {},
-  "description": "***\r Pagina de turismo para contratar excursiones, paseos por la ciudad de Buenos Aires, consultas y reservas, cotizacion de servicios privados y regulares, atencion al turista durante su estadia. \r ***"
+  "description": "***\r Pagina de turismo para contratar excursiones, paseos por la ciudad de Buenos Aires, consultas y reservas, cotizacion de servicios privados y regulares, atencion al turista durante su estadia. \r ***",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solederamo/Ultima-pre-entrega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solederamo/Ultima-pre-entrega/issues"
+  },
+  "homepage": "https://github.com/solederamo/Ultima-pre-entrega#readme"
 }
